@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, user-scalable=no">
 
   <meta property="og:title" content="Cocoa Butter Is The Key"/>
-  <meta property="og:url" content="http://cocoabutteristhekey.com"/>
+  <meta property="og:url" content="https://cocoabutteristhekey.com"/>
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="Cocoa Butter... Major Key." />
-  <meta property="og:image" content="http://cocoabutteristhekey.com/assets/images/og-home.jpg" />
+  <meta property="og:image" content="https://cocoabutteristhekey.com/assets/images/og-home.jpg" />
 
   <meta name="apple-mobile-web-app-capable" content="yes">
 
@@ -40,16 +40,13 @@
   <script type="text/javascript">
     $(function() {
       if (isMobile.apple.phone || isMobile.android.phone || isMobile.seven_inch) {
-        $('.top-left').remove();
+        //$('.top-left').remove();
       }
     });
   </script>
 </head>
 <body>
-  <img class="top-left" src="assets/images/top-left.jpg" alt="Who did this" />
   <div id="screen"></div>
-
-  <div class="top-right-ad"></div>
 
   <script src="assets/js/phaser.min.js"></script>
   <script src="assets/js/main.js"></script>
@@ -72,19 +69,7 @@
       s.parentNode.insertBefore(wf, s);
     })();
 
-    // Analytics
-    var _gauges = _gauges || [];
-    (function() {
-      var t   = document.createElement('script');
-      t.type  = 'text/javascript';
-      t.async = true;
-      t.id    = 'gauges-tracker';
-      t.setAttribute('data-site-id', '5681f3aec88d9074ff000745');
-      t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-      t.src = 'https://track.gaug.es/track.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(t, s);
-    })();
+    
   </script>
 </body>
 </html>
