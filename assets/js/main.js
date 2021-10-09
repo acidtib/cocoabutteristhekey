@@ -85,9 +85,9 @@ function create() {
     credits = game.add.text(
         game.world.width / 2,
         10,
-        'Created By:\n\n @arubinofaux @sarismai',
+        'Created By:\n\n @acidtib_ @hellomaisari',
         {
-            font: '10px "Press Start 2P"',
+            font: '12px "Press Start 2P"',
             fill: '#000000',
             align: 'center'
         }
